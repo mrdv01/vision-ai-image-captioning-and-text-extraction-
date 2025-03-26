@@ -1,0 +1,29 @@
+# Ignore the virtual environment
+venv/
+
+# Python-related ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.DS_Store
+
+# Environment variables (secrets)
+.env
+.env.local
+.env.production
+
+# Ignore logs and caches
+*.log
+logs/
+.cache/
+
+# Frontend - Vite (React)
+node_modules/
+dist/
+.vite/
+.vitepress/
+.idea/
+.vscode/

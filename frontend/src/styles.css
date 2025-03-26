@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4;
+}
+
+.title {
+  @apply text-3xl font-bold mb-4;
+}
+
+.upload-label {
+  @apply bg-blue-500 text-white px-4 py-2 rounded cursor-pointer;
+}
+
+.image-preview {
+  @apply mt-4 w-64 h-auto rounded-lg shadow-lg;
+}
+
+.options {
+  @apply flex space-x-4 mt-4;
+}
+
+.btn {
+  @apply bg-gray-500 text-white px-6 py-2 mt-4 rounded hover:bg-gray-600;
+}
+
+.active {
+  @apply bg-green-500;
+}
+
+.result {
+  @apply mt-4 text-lg font-semibold text-gray-800;
+}
